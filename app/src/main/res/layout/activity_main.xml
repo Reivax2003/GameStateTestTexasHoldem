@@ -15,7 +15,8 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:text="something something something" />
+        android:text="something something something"
+        android:textSize="10sp" />
 
     <Button
         android:id="@+id/runTestButton"

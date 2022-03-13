@@ -44,13 +44,25 @@ public class Controller implements View.OnClickListener {
         firstInstance.playerTurn++;
         text.append("Player 3 (Bill) bets 300 \n");
 
-        PokerGameState secondInstance = new PokerGameState(players, 30, 100);
+        ArrayList<Player> players2 = new ArrayList<Player>();
+
+        //set up players again so that they are the same as they were initially
+        Player p1b = new Player("Joe", 1000);
+        players2.add(p1b);
+        Player p2b = new Player("Mary", 2000);
+        players2.add(p2b);
+        Player p3b = new Player("Bill", 3000);
+        players2.add(p3b);
+
+        PokerGameState secondInstance = new PokerGameState(players2, 30, 100);
+
+
         PokerGameState secondCopy = new PokerGameState(secondInstance);
 
         if (firstCopy.toString().equals(secondCopy.toString())) { //check if copies are the same
-            text.append("firstCopy and secondCopy are identical");
+            text.append("firstCopy and secondCopy are identical\n");
         } else {
-            text.append("firstCopy and secondCopy are NOT identical");
+            text.append("firstCopy and secondCopy are NOT identical\n");
         }
 
         text.append(firstCopy.toString());
