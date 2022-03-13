@@ -21,7 +21,7 @@ public class Player {
     boolean folded = false;
 
     // simple constructor
-    public Player(String name, int balance, Bitmap picture) {
+    public Player(String name, int balance) {//, Bitmap picture) {
         this.name = name;
         this.balance = balance;
         this.picture = picture;
