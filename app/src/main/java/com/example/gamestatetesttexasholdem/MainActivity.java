@@ -6,6 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+/**
+ * Main
+ *
+ * @author Xavier Santiago
+ * @author Milton Nguy
+ * @author Kevin Nguyen
+ * @author Thomas Kone
+ *
+ * @version 3.13.2022
+ */
 
 public class MainActivity extends AppCompatActivity {
 

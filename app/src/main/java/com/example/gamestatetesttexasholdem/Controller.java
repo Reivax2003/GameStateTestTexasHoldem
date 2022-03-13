@@ -3,8 +3,17 @@ package com.example.gamestatetesttexasholdem;
 import android.graphics.Bitmap;
 import android.view.View;
 import android.widget.TextView;
-
 import java.util.ArrayList;
+
+/**
+ * Controller class for holding listeners
+ *
+ * @author Xavier Santiago
+ * @author Milton Nguy
+ * @author Kevin Nguyen
+ * @author Thomas Kone
+ *
+ */
 
 public class Controller implements View.OnClickListener {
 
