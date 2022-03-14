@@ -6,13 +6,14 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Controller class for holding listeners
+ * Controller class for holding action listeners and defining onAction functions
  *
  * @author Xavier Santiago
  * @author Milton Nguy
  * @author Kevin Nguyen
  * @author Thomas Kone
  *
+ * @version 3.13.2022
  */
 
 public class Controller implements View.OnClickListener {
